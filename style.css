@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
+@import "./utilities.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+a:link,
+a:visited {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+header {
+  height: 100vh;
+}
+.header-top {
+  height: 100px;
+  padding-top: 10px;
+}
+.logo {
+  padding-right: 20px;
+}
+.left {
+  align-self: center;
+}
+.logo img {
+  height: 80px;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+}
+.right button {
+  margin-right: 10px;
+  padding: 5px 10px;
+}
+.right button:last-child {
+  margin-right: 0px;
+}
+.header-top .bottom {
+  padding-left: auto;
+  justify-content: flex-end;
+}
+.header-top .bottom a {
+  margin-right: 10px;
+  padding-right: 10px;
+  border-right: 1px solid black;
+}
+.header-top .bottom a:last-child {
+  border-right: none;
+  padding-right: 0;
+}
+header nav {
+  background-color: #e9e9e9;
+  margin-top: 20px;
+  overflow: hidden;
+  height: 60px;
+}
+nav a {
+  padding: 14px 16px;
+  font-size: 17px;
+}
+nav input[type="text"] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+nav .search-container button {
+  padding: 6px 10px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+.header-image img {
+  width: 100%;
+}
+section {
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+section .left {
+  padding: 10px;
+  height: 1000px;
+  width: 68%;
+  background: #ddd;
+  border-radius: 10px;
+}
+section .left .top-head {
+  background: #fff;
+  padding: 4px;
+  height: 50px;
+}
+section .right {
+  padding-top: 10px;
+  width: 30%;
+}
+section .right .top-head {
+  padding: 4px;
+  background: #ddd;
+  height: 50px;
+}
+section .right .top-head h1 {
+  text-align: center;
+}
+.story {
+  margin-top: 20px;
+}
+.story .img-box {
+  width: 35%;
+}
+.story .img-box img {
+  width: 100%;
+}
+.story .description {
+  width: 60%;
+}
+.buttons {
+  margin: 40px auto;
+  width: 40%;
+}
+.buttons button {
+  padding: 10px 20px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+}
+.news {
+  margin-top: 20px;
+}
+.news .news-box {
+  width: 25%;
+}
+.news-box .img-box {
+  width: 90%;
+}
+.review {
+  margin-top: 20px;
+}
+blockquote p {
+  padding: 15px;
+  border-radius: 5px;
+}
+.video {
+  background-color: #ddd;
+  height: 300px;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.video .video-links {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.video .video-links a {
+  text-align: center;
+}
+.navigate {
+  background: #ddd;
+  margin-top: 20px;
+  border-radius: 10px;
+  height: 350px;
+}
+.navigate .text {
+  background-color: #fff;
+  margin: 10px 5px;
+  padding: 4px;
+  height: 50px;
+}
+.navigate .text h1 {
+  text-align: center;
+}
+.navigate ul {
+  padding: 10px 0 10px 35px;
+}
+footer {
+  margin-top: 20px;
+  height: 150px;
+}
+footer .links {
+  margin-top: 50px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid black;
+}
+footer .links a {
+  text-decoration: underline;
+  margin-right: 20px;
+}
+footer .links a:last-child {
+  margin-right: 0px;
+}
+footer p {
+  text-align: center;
+}
